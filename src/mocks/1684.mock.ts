@@ -1,0 +1,5 @@
+export default [
+    ["ab", ["ad","bd","aaab","baa","badab"]],
+    ["abc", ["a","b","c","ab","ac","bc","abc"]],
+    ["cad", ["cc","acd","b","ba","bac","bad","ac","d"]]
+] as [string, string[]][];

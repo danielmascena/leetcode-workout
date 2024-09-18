@@ -1,0 +1,20 @@
+{
+  "name": "leetcode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "1074.number-of-submatrices-that-sum-to-target.js",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.17.1",
+    "@types/node": "^20.14.14",
+    "tsx": "^4.16.5",
+    "typescript": "^5.5.4"
+  },
+  "scripts": {
+    "test": "node --loader tsx --no-warnings --test src/test/*test.ts"
+  },
+  "author": "danielmascena",
+  "license": "ISC"
+}
