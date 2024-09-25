@@ -1,7 +1,7 @@
 import { describe, it } from "node:test";
 import { strictEqual } from "node:assert";
 
-import uncommonFromSentences from "884.uncommon-words-from-two-sentences";
+import uncommonFromSentences from "src/solutions/884.uncommon-words-from-two-sentences";
 import data from "../mocks/884.mock";
 
 import { convertArrayToString } from "src/utils/helpers";

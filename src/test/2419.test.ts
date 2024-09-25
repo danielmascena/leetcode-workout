@@ -1,7 +1,7 @@
 import { describe, it } from "node:test";
 import { strictEqual } from "node:assert";
 
-import longestSubarray from "2419.longest-subarray-with-maximum-bitwise-and";
+import longestSubarray from "src/solutions/2419.longest-subarray-with-maximum-bitwise-and";
 import data from "../mocks/2419.mock";
 
 describe("2419.Longest Subarray With Maximum Bitwise AND", () => {

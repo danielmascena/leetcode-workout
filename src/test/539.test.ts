@@ -1,7 +1,7 @@
 import { describe, it } from "node:test";
 import { strictEqual } from "node:assert";
 
-import findMinDifference from "539.minimum-time-difference";
+import findMinDifference from "src/solutions/539.minimum-time-difference";
 import data from "../mocks/539.mock";
 
 describe("539.Minimum Time Difference", () => {

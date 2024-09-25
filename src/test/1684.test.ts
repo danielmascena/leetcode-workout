@@ -1,7 +1,7 @@
 import { describe, it } from "node:test";
 import { strictEqual } from "node:assert";
 
-import countConsistentStrings from "1684.count-the-number-of-consistent-strings";
+import countConsistentStrings from "src/solutions/1684.count-the-number-of-consistent-strings";
 import data from "../mocks/1684.mock";
 
 describe("1684.Count the Number of Consistent Strings", () => {

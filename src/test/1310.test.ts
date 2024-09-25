@@ -2,7 +2,7 @@ import { describe, it } from "node:test";
 import { strictEqual } from "node:assert";
 
 import { convertArrayToString } from "src/utils/helpers";
-import xorQueries from "1310.xor-queries-of-a-subarray";
+import xorQueries from "src/solutions/1310.xor-queries-of-a-subarray";
 import data from "../mocks/1310.mock";
 
 describe("1310.XOR Queries of a Subarray", () => {
