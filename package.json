@@ -2,18 +2,26 @@
   "name": "leetcode",
   "version": "1.0.0",
   "description": "",
-  "main": "1074.number-of-submatrices-that-sum-to-target.js",
+  "main": "",
   "dependencies": {
+    "@datastructures-js/deque": "^1.0.4",
+    "@datastructures-js/priority-queue": "^5.4.0",
+    "@datastructures-js/queue": "^4.2.3",
     "lodash": "^4.17.21"
   },
   "devDependencies": {
+    "@eslint/js": "^9.13.0",
     "@types/lodash": "^4.17.1",
     "@types/node": "^20.14.14",
+    "eslint": "^9.13.0",
+    "globals": "^15.11.0",
     "tsx": "^4.16.5",
-    "typescript": "^5.5.4"
+    "typescript": "^5.1.6",
+    "typescript-eslint": "^8.11.0"
   },
   "scripts": {
-    "test": "node --loader tsx --no-warnings --test src/test/*test.ts"
+    "test": "node --loader tsx --no-warnings --test src/test/*test.ts",
+    "copyFilesToRepo": "node copy-files-repo.js"
   },
   "author": "danielmascena",
   "license": "ISC"

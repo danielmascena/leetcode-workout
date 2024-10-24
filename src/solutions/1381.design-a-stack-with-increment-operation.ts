@@ -6,7 +6,6 @@
 
 // @lc code=start
 class CustomStack {
-    [key: string]: any;
     size = 0;
     maxSize: number;
     stack = new Array<number>();

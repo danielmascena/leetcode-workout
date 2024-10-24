@@ -76,6 +76,7 @@ function countPairs(root: TreeNode | null, distance: number): number {
 class TreeNode {
     constructor(public val?:number, public left?: TreeNode|null, public right?: TreeNode|null) {}
 }
+
 function t(arr: (number|null)[]): TreeNode|null {
     if (!arr.length) return null
     const root = new TreeNode(arr.shift()!)

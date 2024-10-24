@@ -1,6 +1,6 @@
-import { generateHeadFromList } from "src/utils/helpers";
+import { genLinkedListFromArray } from "src/utils/helpers";
 
 export default [
-    generateHeadFromList([18,6,10,3]),
-    generateHeadFromList([7])
+  genLinkedListFromArray([18, 6, 10, 3]),
+  genLinkedListFromArray([7]),
 ];

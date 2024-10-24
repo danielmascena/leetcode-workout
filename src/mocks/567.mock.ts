@@ -1,0 +1,18 @@
+export default [
+    ["ab",
+        "eidbaooo"],
+    ["ab",
+        "eidboaoo"],
+    ["adc",
+        "dcda"],
+    ["hello",
+        "ooolleoooleh"],
+    ["abc",
+        "bbbca"],
+    ["abcdxabcde",
+        "abcdeabcdx"],
+    ["ab",
+        "a"],
+    ["abc", "cccccbabbbaaaa"],
+    ["trinitrophenylmethylnitramine", "dinitrophenylhydrazinetrinitrophenylmethylnitramine"],
+] as [string, string][];
