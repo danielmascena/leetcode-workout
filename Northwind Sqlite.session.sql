@@ -1,2 +1,2 @@
 SELECT *
-FROM Category;
+FROM Categories;
