@@ -21,6 +21,7 @@
   },
   "scripts": {
     "test": "node --loader tsx --no-warnings --test src/test/*test.ts",
+    "test:it": "node --loader tsx --test",
     "copyFilesToRepo": "node copy-files-repo.js"
   },
   "author": "danielmascena",

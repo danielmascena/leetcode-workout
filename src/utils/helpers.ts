@@ -36,16 +36,16 @@ export function genTreeFromArray(arr: (null | number)[]): TreeNode | null {
     const ln = Number(arr[i]);
     const rn = Number(arr[i + 1]);
     const prev = queue.shift()!;
-    
-    if (ln) {
-        const left = new TreeNode(ln);
-        prev.left = left;
-        queue.push(left);
+
+    if (!Number.isNaN(ln)) {
+      const left = new TreeNode(ln);
+      prev.left = left;
+      queue.push(left);
     }
-    if (rn) {
-        const right = new TreeNode(rn);
-        prev.right = right;
-        queue.push(right);
+    if (!Number.isNaN(rn)) {
+      const right = new TreeNode(rn);
+      prev.right = right;
+      queue.push(right);
     }
   }
   return head;
@@ -58,7 +58,7 @@ export function genArrayFromTree(head: TreeNode | null): Array<number | null> {
 
   while (node) {
     const { val, left, right } = node;
-    ans.push(val || null);
+    ans.push(val ?? null);
 
     if (left || right) {
       queue.push(left ?? new TreeNode(0));
