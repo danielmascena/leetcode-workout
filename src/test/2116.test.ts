@@ -1,7 +1,7 @@
 import {describe, it} from "node:test";
 import {equal} from "node:assert/strict";
 
-import canBeValid from "2116.check-if-a-parentheses-string-can-be-valid";
+import canBeValid from "src/solutions/2116.check-if-a-parentheses-string-can-be-valid";
 import data from "src/mocks/2116.mock";
 
 describe("[2116] check if parentheses string can be valid", () => {
