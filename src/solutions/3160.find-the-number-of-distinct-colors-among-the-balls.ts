@@ -30,3 +30,9 @@ function queryResults(limit: number, queries: number[][]): number[] {
 }
 
 export default queryResults;
+/**
+ * Accepted
+551 / 551 testcases passed
+Runtime 64ms Beats 61.54%
+Memory 89.64MB Beats 100.00%
+*/
