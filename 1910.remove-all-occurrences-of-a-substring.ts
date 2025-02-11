@@ -6,38 +6,28 @@
 
 // @lc code=start
 function removeOccurrences(s: string, part: string): string {
-  const size = part.length;
-  const stack = new Array<string>();
-  const point = new Array<number>();
+  const len = part.length;
+  const stack = [] as string[];
 
-  for (let i = 0, j = 0, len = s.length; i < len; i++) {
-    const c = s.charAt(i);
-    const k = part.charAt(j);
+  for (const c of s) {
+    stack.push(c);
 
-    console.log(stack, point);
-    if (c !== k) {
-      j = 0;
-    }
-    if (c === part.charAt(j)) {
-      const weight = (point.at(-1) ?? 0) + 1;
-      if (weight === size) {
-        while (--j) {
+    if (stack.length >= len) {
+      if (stack.slice(-len).join("") === part) {
+        for (let i = len; i; i--) {
           stack.pop();
-          point.pop();
         }
-        j = point.at(-1) ?? 0;
-      } else {
-        stack.push(c);
-        point.push(weight);
-        j++;
       }
-    } else {
-      stack.push(c);
-      point.push(0);
-      j = 0;
     }
   }
+  return stack.join("");
 }
 // @lc code=end
 
 export default removeOccurrences;
+/**
+ * Accepted
+80/80 cases passed (34 ms)
+Your runtime beats 8.33 % of typescript submissions
+Your memory usage beats 12.5 % of typescript submissions (56.2 MB)
+ */
