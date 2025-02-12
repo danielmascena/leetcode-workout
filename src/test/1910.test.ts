@@ -1,7 +1,7 @@
 import { describe, it } from "node:test";
 import { equal } from "node:assert/strict";
 
-import removeOccurrences from "1910.remove-all-occurrences-of-a-substring";
+import removeOccurrences from "src/solutions/1910.remove-all-occurrences-of-a-substring";
 import data from "src/mocks/1910.mock";
 
 describe("[1910] Remove All Occurrences of a Substring", () => {

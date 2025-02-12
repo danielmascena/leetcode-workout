@@ -1,6 +1,7 @@
 
 /node_modules
-
 test/**.js 
+
+.vscode/settings.json
 *.js
 .DS_Store
